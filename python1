@@ -1,0 +1,52 @@
+print("Anthon is 21")
+print("Beth is 6")
+print("Chen is 20")
+print("Drew is 41")
+print("Ethan is 20")
+
+name:str = "Alice"
+age:int = 30
+city:str = "New York"
+print(f'{name} is {age} years old and lives in {city}.')
+
+text:str="hello world"
+print(text.upper())
+print(text.lower())
+print(text.capitalize())
+
+s:str ="the quick brown fox jumps over the lazy dog"
+print(s.index("fox"))
+print(s.count("the"))
+
+s:str ="I love programming in Python"
+print(s.replace("Python","Java"))
+
+s:str ="apple,banana,cherry,dates"
+t : any = s.split()
+print(t)
+z = " ".join(t)
+print(z)
+
+s:str ="   Python is fun!   "
+print(s.strip())
+
+s:str ="Python is fun!"
+width = 20
+newfilled = s.rjust(width, '*')
+print(f"'{newfilled}'")
+
+s:str ="Python is fun!"
+width = 20
+newfilled = s.ljust(width, '*')
+print(f"'{newfilled}'")
+
+num:int = 45
+print(bin(num))
+
+base:int = 3
+exponent:int = 4
+print(base ** exponent)
+
+value:float = 12.34567
+print(round(value))
+print(round(value,2))
